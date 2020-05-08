@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="@string/search"
+        android:id="@+id/main_find_blog_option"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="@string/my_blog"
+        android:id="@+id/blog_view_and_create"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/main_logout_option"
+        android:title="@string/log_out"
+        app:showAsAction="never">
+    </item>
+</menu>

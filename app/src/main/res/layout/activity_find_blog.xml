@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindBlogActivity">
+
+    <EditText
+        android:id="@+id/search_friends_text_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/search_friends_button"
+        android:hint="@string/type_here"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:layout_margin="5dp"
+        android:textCursorDrawable="@android:color/black"
+        app:backgroundTint="@android:color/black" />
+
+    <Button
+        android:id="@+id/search_friends_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/buttons"
+        android:layout_margin="5dp"
+        android:hint="@string/search"
+        android:textColorHint="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/no_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_friends_text_input"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/no_result_with_this_name"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/find_blog_recycler_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/no_result"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

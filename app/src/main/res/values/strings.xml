@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BlogApp</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="login">Login</string>
+    <string name="need_new_account">Need new Account ?</string>
+    <string name="password">Password…</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an Account ?</string>
+    <string name="email">Email…</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="type_here">Type here…</string>
+    <string name="search">Search</string>
+    <string name="log_out">Log Out</string>
+    <string name="no_result_with_this_name">No result with this name…</string>
+    <string name="article_image">Article Image</string>
+    <string name="create_new_blog">Create New Blog</string>
+    <string name="enter_blog_name">Enter Blog Name</string>
+    <string name="enter_blog_description">Enter Blog Description</string>
+    <string name="blog_cover_photo">Blog Cover Photo</string>
+    <string name="create_new_post">Create New Post</string>
+    <string name="write_title_here">write title here</string>
+    <string name="write_post_here">Write post here....</string>
+    <string name="edit">Edit</string>
+    <string name="follow">Follow</string>
+    <string name="my_blog">My Blog</string>
+    <string name="save">Save</string>
+    <string name="un_follow">UnFollow</string>
+    <string name="blog_profile">Blog Profile</string>
+</resources>
